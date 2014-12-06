@@ -6,7 +6,7 @@ BEGIN {
     use_ok('Template');
 }
 
-my $template = new Template;
+my $template = Template->new;
 
 is( ref $template => 'Template' );
 
