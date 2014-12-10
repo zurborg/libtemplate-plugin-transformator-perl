@@ -28,6 +28,8 @@ This module is a filter for L<Net::NodeTransformator>.
 
 =head1 CONFIGURATION
 
+A transformator service is needed. L<Net::NodeTransformator> can start a standalone service, that will happen when no configuration is applied to this module.
+
 	Template->new({
 		PLUGIN_CONFIG => {
 			Transformator => {
